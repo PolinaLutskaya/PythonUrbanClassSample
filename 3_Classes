@@ -1,0 +1,115 @@
+Сlass Architect:
+    """
+    Класс описывает архитектора
+    """
+    def __init__(self, name: str, category: int, buro: str):
+        """
+        Создание и подготовка к работе объекта "Архитектор"
+
+        self.name = name
+        self.category = category
+        self.buro = buro
+
+    def say_name(self) -> str:
+        """
+        Функция называет имя архитектора
+
+        :return: Имя архитектора
+
+        """
+        ...
+
+    def assign_category(self) -> int:
+        """
+        Функция присваивает категорию архитектору
+
+        :return: Категория архитектора
+        """
+        ...
+
+    def get_buro(self) -> str:
+        """
+        Функция возвращает бюро
+        
+        :return: Название бюро
+        """
+        ...
+        
+Class Pythonchik:
+    """
+    Класс описывает учебу
+    """
+    def __init__(self, fear: str, hours: int, disorder: str):
+        """
+        Создание и подготовка к работе объекта "Питон"
+        
+        :param headache: Интенсивность головной боли
+        :param respect: Уровень уважения
+        """
+
+        self.fear = fear
+        self.hours = hours
+        self.disorder = disorder
+
+    def feel_fear(self) -> str:
+        """
+        Функция определяет страх
+
+        :return: Страх
+
+        """
+        ...
+
+    def get_hours(self) -> int:
+        """
+        Функция считает часы учебы
+
+        :return: Часы учебы
+        """
+        ...
+
+    def disorder(self) -> str:
+        """
+        Функция называет психологическую травму
+        
+        :return: Расстройство
+        """
+        ...
+        
+Class Banya:
+    """
+    Класс описывает баню
+    """
+    def __init__(self, location: str, temperature: int, type: str):
+        """
+        Создание и подготовка к работе объекта "Баня"
+
+        self.location = location
+        self.temperature = temperature
+        self.type = type
+
+    def location(self) -> str:
+        """
+        Функция определяет локацию
+
+        :return: Локация
+
+        """
+        ...
+
+    def temperature(self) -> int:
+        """
+        Функция определяет температуру парилки
+
+        :return: Температура
+        """
+        ...
+
+    def type(self) -> str:
+        """
+        Функция называет тип бани
+        
+        :return: Тип
+        """
+        ...
+
